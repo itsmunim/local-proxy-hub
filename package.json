@@ -1,0 +1,26 @@
+{
+  "name": "local-proxy-hub",
+  "version": "1.0.0",
+  "description": "A proxy hub for all the app/services running on same machine",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dibosh/local-proxy-hub.git"
+  },
+  "keywords": [
+    "proxy",
+    "reverse-proxy",
+    "localhost",
+    "nginx",
+    "server"
+  ],
+  "author": "Munim Dibosh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dibosh/local-proxy-hub/issues"
+  },
+  "homepage": "https://github.com/dibosh/local-proxy-hub#readme"
+}
