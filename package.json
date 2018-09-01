@@ -8,7 +8,8 @@
     "lph": "./lib/program.js"
   },
   "scripts": {
-    "start": "pm2 start ecosystem.config.js --watch",
+    "preinstall": "npm install -g pm2",
+    "start": "pm2 start ecosystem.config.js",
     "postinstall": "npm start"
   },
   "repository": {
