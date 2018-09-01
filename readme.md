@@ -1,3 +1,6 @@
+[![all downloads](https://img.shields.io/npm/dt/local-proxy-hub.svg)]()
+
+
 # Local Proxy Hub
 
 ### Problem
