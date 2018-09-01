@@ -4,9 +4,12 @@
   "description": "A proxy hub for all the app/services running on same machine",
   "main": "./lib/server.js",
   "preferGlobal": true,
-  "bin": "./lib/program.js",
+  "bin": {
+    "local-proxy-hub": "./lib/program.js",
+    "postinstall": "./lib/postinstall.js"
+  },
   "scripts": {
-    "start": "nodemon ./lib/server.js"
+    "start": "pm2 start lib/server.js --watch"
   },
   "repository": {
     "type": "git",
