@@ -1,6 +1,6 @@
 {
   "name": "local-proxy-hub",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A proxy hub for all the app/services running on same machine",
   "main": "./lib/server.js",
   "preferGlobal": true,
