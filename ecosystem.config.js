@@ -1,3 +1,8 @@
 module.exports = {
-  ignore_watch: ['node_modules']
+  apps: [{
+    name: 'lph-server',
+    script: './lib/server.js',
+    watch: './lib',
+    ignore_watch: ['.idea', 'node_modules']
+  }]
 };

@@ -8,7 +8,7 @@
     "lph": "./lib/program.js"
   },
   "scripts": {
-    "start": "pm2 start lib/server.js --watch",
+    "start": "pm2 start ecosystem.config.js",
     "postinstall": "npm start"
   },
   "repository": {
