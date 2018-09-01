@@ -2,7 +2,11 @@ module.exports = {
   apps: [{
     name: 'lph-server',
     script: './lib/server.js',
-    watch: './lib',
-    ignore_watch: ['.idea', 'node_modules']
+    watch: './lib/routes.json',
+    watch_options: {
+      usePolling: true,
+      alwaysStat: true,
+      useFsEvents: false
+    }
   }]
 };
