@@ -5,11 +5,11 @@
   "main": "./lib/server.js",
   "preferGlobal": true,
   "bin": {
-    "local-proxy-hub": "./lib/program.js",
-    "postinstall": "./lib/postinstall.js"
+    "lph": "./lib/program.js"
   },
   "scripts": {
-    "start": "pm2 start lib/server.js --watch"
+    "start": "pm2 start lib/server.js --watch",
+    "postinstall": "npm start"
   },
   "repository": {
     "type": "git",
