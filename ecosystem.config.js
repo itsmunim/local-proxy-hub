@@ -1,5 +1,5 @@
 module.exports = {
-  watch: ['lib/routes.json'],
+  watch: ['lib'],
   ignore_watch: ['node_modules'],
   watch_options: {
     'followSymlinks': false
